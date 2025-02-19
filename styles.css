@@ -70,6 +70,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 29px;
 }
 
 .woman-image {
@@ -80,10 +81,25 @@ body {
 .necklace {
     max-width: 270px;
     max-height: 246px;
-    margin-left: -100px;
+    margin-left: -80px;
+    text-align: right;
 }
 
 .bracelet {
     max-width: 272px;
     max-height: 440px;
+}
+
+.product-name {
+    font-family: 'Kaisei Decol';
+    line-height: 26px;
+    letter-spacing: 0.15px;
+    font-size: 20px;
+}
+
+.text {
+    font-family: 'Inter';
+    font-weight: 300;
+    line-height: 20%;
+    text-decoration: underline;
 }
